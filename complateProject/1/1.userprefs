@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Blob-Shadow\ProjectorMultiply.shader">
+    <Files>
+      <File FileName="..\..\..\Physics show\Temp\Compiled-ProjectorMultiply.shader" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Player.cs" Line="13" Column="20" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Enermy\JumpDieEnermy\Weapone.cs" Line="29" Column="25" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Item\RocketX.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\FollowTarget.cs" Line="20" Column="22" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\GameSystem.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Enermy\MeteoX.cs" Line="7" Column="39" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Enermy\FullEnermy\FullWeapone.cs" Line="15" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Dice.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\RegameManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Finaltarget.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Token.cs" Line="29" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Enermy\JumpDieEnermy\Body.cs" Line="39" Column="5" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\Bomb.cs" Line="21" Column="4" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\BombTriger.cs" Line="56" Column="22" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Models\Cold Spring Day Skybox\ColdSpringDaySkybox_Info.txt" Line="1" Column="1" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\AutoActive.cs" Line="18" Column="2" />
+      <File FileName="..\..\..\Physics show\Assets\GAME\Script\DethBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\Blob-Shadow\ProjectorMultiply.shader" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

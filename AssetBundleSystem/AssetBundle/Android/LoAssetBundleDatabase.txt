@@ -1,0 +1,3 @@
+id,resource_load_path,bundle_load_path,type,version,asset_bundle_filename,asset_bundle_type
+0,Assets/BaseMale/Prefabs/baseMale/prefab,baseMale,GameObject,1,baseMale,resource
+1,Assets/Robot Kyle/Robot Kyle/prefab,Robot Kyle,GameObject,1,Robot Kyle,resource

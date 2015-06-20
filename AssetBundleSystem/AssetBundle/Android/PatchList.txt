@@ -1,0 +1,4 @@
+id,file,url_path,version,asset_bundle_type
+0,LoAssetBundleDatabase.txt,http://192.168.92.21:8000/LoAssetBundleDatabase.txt,100000,resource_data_base
+1,baseMale.unity3d,http://192.168.92.21:8000/baseMale.unity3d,1,resource
+2,Robot Kyle.unity3d,http://192.168.92.21:8000/Robot Kyle.unity3d,1,resource

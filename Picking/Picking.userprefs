@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Goomung\Assets\LeanTween\LeanTweenExamples\Scripts\MenuExampleCSharp.cs">
+    <Files>
+      <File FileName="..\..\Goomung\Assets\GameAnalytics\Editor\GA_DeleteAssetBundleMenu.cs" Line="14" Column="31" />
+      <File FileName="..\..\Goomung\Assets\LeanTween\LeanTweenExamples\Scripts\MenuExampleCSharp.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

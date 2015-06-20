@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BA29084B-958A-8BB1-2C81-E16C8DB445B5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonAnimationPause.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonClickFlash.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonHoverSetText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonPicker.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonPosition.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSetAnimation.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSetMaterial.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSize.js" />
+     <Compile Include="Assets\BaseMale\Scripts\GUI\buttonSwitchTexture.js" />
+     <Compile Include="Assets\BaseMale\Scripts\cameraViewObject.js" />
+     <Compile Include="Assets\BaseMale\Scripts\clearText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\infoText.js" />
+     <Compile Include="Assets\BaseMale\Scripts\shadow.js" />
+     <Compile Include="Assets\Monsterupdate\scripts\OrbitCamera.js" />
+     <Compile Include="Assets\Monsterupdate\scripts\RandomFly.js" />
+     <Compile Include="Assets\QuickRopes 2\_EXAMPLES\Scripts\DragRigidbody_QR2.js" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderSM3.shader" />
+     <None Include="Assets\AdvancedHairShaderPack\shaders\Aniso_Scheuermann.shader" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderCommon.cginc" />
+     <None Include="Assets\Monsterupdate\Materials\atsv2 vertexlit.shader" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderSM2_1DirSH.shader" />
+     <None Include="Assets\AdvancedHairShaderPack\shaders\Aniso_Kajiya.shader" />
+     <None Include="Assets\SpartanKing\animations.txt" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderSM2_2Pass.shader" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderSM5.shader" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderCombined.shader" />
+     <None Include="Assets\AdvancedHairShaderPack\shaders\Aniso_Circular.shader" />
+     <None Include="Assets\PreIntegratedSkinShader V1.1\PreIntegratedSkinShaderSM2.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root data="value" data2="value2" d1p1:data="value3" d1p2:data="value3" xmlns:d1p2="ns2" xmlns:d1p1="ns">value5</root>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{276F5D55-5CEF-45D4-F39B-C2DF1DA7711A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3dsmax Bip Warrior Anim Free\Scripts\PlayGUI.cs" />
+     <Compile Include="Assets\CharacterAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\EffectScriptSample.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDetachObject.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDontActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectAniBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectInitBackup.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRandomTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRepeatTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTransformTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NgInterpolate.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsEffectManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsRenderManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsSharedManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAddForce.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachPrefab.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachSound.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDeactive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDestruct.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcBillboard.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcChangeAlpha.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcCurveAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDetachParent.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDuplicator.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleEmit.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSpiral.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSystem.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcRotation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteFactory.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTilingTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTrailTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcUvAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAssambly.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAsset.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAtlas.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgEnum.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgFile.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgGUIDraw.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgLayout.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgMaterial.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgObject.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgSerialized.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgString.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgTexture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgUtil.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcDrawFpsRect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcDrawFpsText.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcSafeTool.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcTickTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerGrayscaleEffect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerImageEffectBase.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestControls.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSetting.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSimulate.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSingleMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSingleMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerAsset.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerBackground.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerCapture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerClipboard.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerControls.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerEffect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerGizmo.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerHierarchy.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerLayout.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerOption.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerPicking.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerQuickMenu.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerSimulate.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerTooltip.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerWireframe.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_NcCurveAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_NcInfoCurve.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_Prefab.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_Texture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmInfoBackground.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmInfoIndexing.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmMenuPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopupManager.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_GameObject.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_Object.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_Transform.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmSpritePopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMakerReplayScene\FxmReplayDemo.cs" />
+     <Compile Include="Assets\WoTrail.cs" />
+     <Compile Include="Assets\WoTrailLauncher.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsDataPacket.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsEulerPacket.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsLiveAnimator.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsMvnPose.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsQuaternionPacket.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsStreamReader.cs" />
+     <Compile Include="Assets\Xsens\MvnLive\Scripts\XsStreamReaderThread.cs" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Cutout.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive.shader" />
+     <None Include="Assets\IGSoft_Tools\Readme\Contact.txt" />
+     <None Include="Assets\IGSoft_Tools\Readme\Fx Maker Version.txt" />
+     <None Include="Assets\IGSoft_Tools\Readme\FX Maker VideoGuide Youtube.txt" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Temp\grayShader.shader" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerGrayscaleEffect.shader" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\EditorShader\LineColoredBlended.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended Tint.shader" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\EditorShader\LineBackground.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

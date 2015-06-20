@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jiji_Skin
+  m_Shader: {fileID: 4800000, guid: 2ddedf1b0b625964abdff7def5c776ae, type: 1}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 73a682f299b1bd64a90eb98a58d43df2, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 877052f5e0a416a4e95d632452245701, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 17d567db834eb684c9f2547759cd9858, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GlossinessMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e138adefa77cf4642a1dbcc34f2a14b8, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SkinMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 5f185e0ebbe356c428ff8c81d7b4a896, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupDiffuseSpec
+        second:
+          m_Texture: {fileID: 2800000, guid: 2b455fb156396cb45b093d3778f3a4d7, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TranslucencyMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupTranslucency
+        second:
+          m_Texture: {fileID: 2800000, guid: 9cc499834771532448f9f9589d799c2e, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosDepthMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 9b7e067110c074a46ae27bebf1eccf46, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DispTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 647be0c0462523d4ea09db0cef05550a, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 647be0c0462523d4ea09db0cef05550a, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackScatterColor
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackScatterMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5f185e0ebbe356c428ff8c81d7b4a896, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupEL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _BackRimStrength
+        second: .15384616
+      data:
+        first:
+          name: _BackRimSmoothness
+        second: 6.84615374
+      data:
+        first:
+          name: _BackRimWidth
+        second: .884615362
+      data:
+        first:
+          name: _FrontRimStrength
+        second: 0
+      data:
+        first:
+          name: _FrontRimSmoothness
+        second: 20
+      data:
+        first:
+          name: _FrontRimWidth
+        second: 0
+      data:
+        first:
+          name: _FresnelSkin
+        second: .0280000009
+      data:
+        first:
+          name: _FresnelMasked
+        second: .00999999978
+      data:
+        first:
+          name: _Bumpiness
+        second: 1.51923072
+      data:
+        first:
+          name: _SpecIntensity
+        second: 10
+      data:
+        first:
+          name: _SpecRoughness
+        second: .961538553
+      data:
+        first:
+          name: _ScatteringOffset
+        second: .15384616
+      data:
+        first:
+          name: _ScatteringPower
+        second: 2
+      data:
+        first:
+          name: _TranslucencyOffset
+        second: .134615391
+      data:
+        first:
+          name: _TranslucencyPower
+        second: 10
+      data:
+        first:
+          name: _TranslucencyRadius
+        second: .0961538553
+      data:
+        first:
+          name: _BumpinessDR
+        second: 0
+      data:
+        first:
+          name: _BumpinessDG
+        second: .365384638
+      data:
+        first:
+          name: _BumpinessDB
+        second: .596153855
+      data:
+        first:
+          name: _DisplacementScale
+        second: 0
+      data:
+        first:
+          name: _DisplacementOffset
+        second: 0
+      data:
+        first:
+          name: _EdgeLength
+        second: 5
+      data:
+        first:
+          name: _Phong
+        second: .5
+      data:
+        first:
+          name: _TessDivisions
+        second: 8
+      data:
+        first:
+          name: _TessRadius
+        second: .25
+      data:
+        first:
+          name: _TessCullAngle
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _BackRimHardness
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BackScatterTintColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TranslucencColor
+        second: {r: 1, g: 1, b: 1, a: 1}
